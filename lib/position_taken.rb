@@ -1,9 +1,9 @@
 # code your #position_taken? method here!
 
-def position_taken?(board, index)
-  if board[index] ==" " || board[index] =="" || board[index] == nil
+def position_taken?(board1, index1)
+  if board1[index1] ==" " || board1[index1] =="" || board1[index1] == nil
     false
-  elsif board[index] == "X" || board[index] == "O"
+  elsif board1[index1] == "X" || board1[index1] == "O"
   true
   end
 end
